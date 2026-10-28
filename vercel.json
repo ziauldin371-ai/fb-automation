@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/auto-post?slot=morning",
+      "schedule": "0 8 * * *"
+    },
+    {
+      "path": "/api/cron/auto-post?slot=afternoon",
+      "schedule": "0 13 * * *"
+    },
+    {
+      "path": "/api/cron/auto-post?slot=evening",
+      "schedule": "0 18 * * *"
+    }
+  ]
+}

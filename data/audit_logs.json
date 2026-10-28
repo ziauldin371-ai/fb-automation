@@ -1,0 +1,66 @@
+[
+  {
+    "eventType": "POST_PUBLISHED",
+    "source": "facebook_api",
+    "status": "success",
+    "message": "Slot 2 published successfully to Facebook Page! (Simulation Mode: add Page Access Token for live delivery)",
+    "payload": {
+      "postId": "sim_1793220869550_ensve1",
+      "slotIndex": 2,
+      "category": "practical_expertise",
+      "topic": "Architecting Production RAG: Grounded Context Models vs Naive Vector Search"
+    },
+    "id": "log-1793220869555-hk0b",
+    "createdAt": "2026-10-28T20:54:29.555Z"
+  },
+  {
+    "eventType": "POST_PUBLISHED",
+    "source": "facebook_api",
+    "status": "success",
+    "message": "Slot 3 published successfully to Facebook Page! (Simulation Mode: add Page Access Token for live delivery)",
+    "payload": {
+      "postId": "sim_1793219337604_izphqq",
+      "slotIndex": 3,
+      "category": "business_value",
+      "topic": "The Real Cost of LLM Hallucinations in Regulated Industries"
+    },
+    "id": "log-1793219337608-2m1j",
+    "createdAt": "2026-10-28T20:28:57.608Z"
+  },
+  {
+    "eventType": "UNAUTHORIZED_TRIGGER_ATTEMPT",
+    "source": "scheduler",
+    "status": "warn",
+    "message": "Rejected unauthorized call to /api/cron/worker.",
+    "id": "log-1793219305208-97rg",
+    "createdAt": "2026-10-28T20:28:25.208Z"
+  },
+  {
+    "eventType": "POST_PUBLISHED",
+    "source": "facebook_api",
+    "status": "success",
+    "message": "Slot 1 published successfully to Facebook Page! (Simulation Mode: add Page Access Token for live delivery)",
+    "payload": {
+      "postId": "sim_1793218889399_yeh4l2",
+      "slotIndex": 1,
+      "category": "trending_ai",
+      "topic": "Autonomous FinBots with n8n, Python Webhooks, and LLM Reasoning Steps"
+    },
+    "id": "log-1793218889405-k9rt",
+    "createdAt": "2026-10-28T20:21:29.405Z"
+  },
+  {
+    "eventType": "POST_PUBLISHED",
+    "source": "facebook_api",
+    "status": "success",
+    "message": "Slot 1 published successfully to Facebook Page! (Simulation Mode: add Page Access Token for live delivery)",
+    "payload": {
+      "postId": "sim_1793217089109_alfs2z",
+      "slotIndex": 1,
+      "category": "trending_ai",
+      "topic": "Autonomous FinBots with n8n, Python Webhooks, and LLM Reasoning Steps"
+    },
+    "id": "log-1793217089126-wd9x",
+    "createdAt": "2026-10-28T19:51:29.126Z"
+  }
+]

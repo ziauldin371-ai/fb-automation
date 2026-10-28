@@ -1,0 +1,26 @@
+[
+  {
+    "id": "seed-post-1",
+    "content": "Most production AI applications don't fail at the LLM layer—they fail at the context & data governance boundary.\n\nHere is the exact architectural pattern we use when building high-stakes AI engines with Next.js and Python microservices:\n\n🔹 1. Ingestion Guardrails Before LLM Calls: Zero-trust schema validation with data anonymization.\n🔹 2. Grounded Context vs Blind Semantic Search: Source traceability over naive vector retrieval.\n🔹 3. Decoupled Webhooks for Complex Reasoning: Sub-second TTFB on Next.js frontend with asynchronous workers.\n\nWhat is the biggest bottleneck you have encountered taking LLM prototypes to enterprise production?\n\n— Zia-ul-din | Full Stack AI & Automation Architect\n#AIArchitecture #FullStackAI #LLMs #NextJS #ProductionAI",
+    "topic": "Architecting Low-Latency RAG & Enterprise Context Pipelines",
+    "category": "fullstack_ai",
+    "slot": "morning",
+    "status": "published",
+    "facebookPostId": "demo_123456789_published",
+    "facebookPostUrl": "https://facebook.com",
+    "createdAt": "2026-10-28T14:27:12.232Z",
+    "publishedAt": "2026-10-28T14:27:12.233Z",
+    "hashtags": [
+      "#AIArchitecture",
+      "#FullStackAI",
+      "#LLMs",
+      "#NextJS",
+      "#ProductionAI"
+    ],
+    "engagement": {
+      "likes": 38,
+      "comments": 12,
+      "shares": 7
+    }
+  }
+]
