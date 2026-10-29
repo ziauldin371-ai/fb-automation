@@ -111,7 +111,13 @@ export default function DashboardPage() {
       let url = '/api/cron/worker';
       if (slotIndex) url += `?slot=${slotIndex}`;
 
-      const res = await fetch(url, { method: 'POST' });
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'x-manual-trigger': 'dashboard',
+          'Content-Type': 'application/json',
+        },
+      });
       const data = await res.json();
 
       if (res.ok && data.success) {

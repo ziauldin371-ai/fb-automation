@@ -18,9 +18,11 @@ async function handleWorkerTrigger(req: NextRequest) {
   const authHeader = req.headers.get('authorization');
   const cronSecret = process.env.CRON_SECRET;
   const qstashSignature = req.headers.get('upstash-signature');
+  const manualTrigger = req.headers.get('x-manual-trigger') === 'dashboard';
+  const isSameOrigin = req.headers.get('sec-fetch-site') === 'same-origin';
 
-  // Verify authorization secret if configured
-  if (cronSecret && authHeader !== `Bearer ${cronSecret}`) {
+  // Verify authorization secret if configured (allow dashboard UI manual trigger)
+  if (!manualTrigger && !isSameOrigin && cronSecret && authHeader !== `Bearer ${cronSecret}`) {
     const customSecretHeader = req.headers.get('x-cron-secret');
     if (customSecretHeader !== cronSecret && !qstashSignature) {
       await addAuditLog({
